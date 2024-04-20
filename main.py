@@ -29,11 +29,11 @@ def send_email(sender_email, sender_password, receiver_email, subject, body):
     server.quit()
 
 
-  sender_email = "avinashaws9588@gmail.com"
-  sender_password = "mcst rhrz krcr baoe"
-  receiver_email = "rishavi08072002@gmail.com"
-  subject = "API WORKING FINE"
-  body = "It is to inform you that the we are correctly abled to fetch the correct price of the DESIRED INSTRUEMENT and network other componenets are working fine"
+sender_email = "avinashaws9588@gmail.com"
+sender_password = "mcst rhrz krcr baoe"
+receiver_email = "rishavi08072002@gmail.com"
+subject = "API WORKING FINE"
+body = "It is to inform you that the we are correctly abled to fetch the correct price of the DESIRED INSTRUEMENT and network other componenets are working fine"
 
 
 while True:
