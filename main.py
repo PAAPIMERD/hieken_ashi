@@ -1,6 +1,7 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+import time
 
 
 
@@ -38,6 +39,7 @@ body = "It is to inform you that the we are correctly abled to fetch the correct
 
 while True:
     send_email(sender_email, sender_password, receiver_email, subject, body)
+    time.sleep(10)
 
 
 
